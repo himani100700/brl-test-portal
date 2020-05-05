@@ -1,0 +1,38 @@
+.up{
+    height: 100%;
+     background-color: rgba(17, 17, 17, 0.87);
+}
+.card{
+    
+   top: 37%;
+    margin-right: 30%;
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+    border-radius: 28px;
+}
+@media only screen and (min-width: 200px) {
+    .card{width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+}
+@media only screen and (min-width: 700px) {
+    .card{
+        height: 30%;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .card{
+    
+        top: 37%;
+         margin-right: 30%;
+         margin-left: 30%;
+         height: 40%;
+         width: 40%;
+         border-radius: 28px;
+     }
+}
+    
+    
