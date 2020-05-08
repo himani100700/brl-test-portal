@@ -1,0 +1,127 @@
+div.container-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+img.logo {
+    height: 5rem;
+}
+
+img.gp-72 {
+    float: right;
+    height: 90%;
+    top: 0;
+}
+
+img.mg-4 {
+    bottom: 0;
+    position: fixed;
+}
+
+.mg-5 {
+    float: right;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+p.text {
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+div.box {
+    padding: 20px;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20%;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.btn {
+    border-radius: 100px;
+    font-weight: 800;
+    width: 150px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    img {
+        display: none;
+    }
+    div.box {
+        position: relative;
+        margin: auto;
+        background-color: transparent;
+    }
+    div.container-fluid {
+        border: 5px double #417bff;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    img.gp-72 {
+        display: none;
+    }
+    div.box {
+        position: relative;
+        margin: auto;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .example {
+        background: blue;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .example {
+        background: orange;
+    }
+}
+
+
+/* @media only screen and (max-width: 1055px) {
+    div.box {
+        margin-left: 5%;
+    }
+    .gp-72 {
+        width: 70%;
+    }
+} */
+
+@media only screen and (min-width: 1060px) {
+    div.box {
+        padding: 20px;
+        position: absolute;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 20%;
+        margin-top: 3%;
+        background-color: white;
+    }
+    img.gp-72 {
+        float: right;
+        height: 90%;
+        top: 0;
+        display: block;
+    }
+}

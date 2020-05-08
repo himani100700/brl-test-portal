@@ -1,14 +1,15 @@
 <div class="container-fluid">
+    <img src="assets/brllogo.png" alt="brl-logo" class="logo">
     <div class="card center">
 
         <div class="row pt-5">
             <div class="col-md-7 pr-0 box1">
                 <img src="assets/pic-1.png" class="img1">
             </div>
-            <div class="col-md-5 box2">
-                <h1 class="heading pl-5">Sign Up</h1>
-
+            <div class="col-md-5 box2 pl-0">
+                <h1>Sign Up</h1>
                 <form>
+
                     <div class="form__group field">
                         <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
                         <label for="name" class="form__label">Name</label>
@@ -25,6 +26,16 @@
                         <input type="password" class="form__field" placeholder="Password" name="password" id='password' required />
                         <label for="password" class="form__label">Password</label>
                     </div>
+                    <ul>
+                        <li style="float:left;">
+                            <a href="#">
+                                <p class="signup ">Already Have a Account ? Sign In</p>
+                            </a>
+                        </li>
+                        <li style="float: right;">
+                            <a routerLink="/signup"> <i class='fas fa-arrow-circle-right next  fa-4x'></i></a>
+                        </li>
+                    </ul>
                 </form>
             </div>
         </div>
