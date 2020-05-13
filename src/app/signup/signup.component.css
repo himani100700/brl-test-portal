@@ -1,12 +1,13 @@
-#bgimg{
+#bgimg {
     background-image: url("src/assets/bg1.png");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-repeat: space;
+    background-size: 100% auto;
     height: 100%;
     width: 100%;
     background-position: center;
 }
-.logo{
+
+.logo {
     width: 17%;
     float: right;
     background-image: url("src/assets/brllogo.png");
@@ -30,37 +31,33 @@
     color: #211c98;
     text-align: center;
     border-radius: 25px;
-    
 }
-.pic1{
+
+.pic1 {
     height: 100%;
     width: 100%;
 }
+
 .row {
     height: 100%;
-  
 }
 
 .cl2 {
-   
     height: 100%;
-    width: 100%; 
+    width: 100%;
     padding-bottom: 9%;
-
 }
-.cl1{
-    
+
+.cl1 {
     height: 100%;
     width: 100%;
     font-family: cursive;
-   
 }
 
 .form__group {
     position: relative;
     padding: 15px 0 0;
     margin-top: 20px;
-    
 }
 
 .form__field {
@@ -72,7 +69,6 @@
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
-    
 }
 
 .form__field::placeholder {
@@ -91,7 +87,7 @@
     display: block;
     transition: 0.2s;
     font-size: 1.5rem;
-    color:black;
+    color: black;
 }
 
 .form__field:focus {
@@ -111,66 +107,53 @@
     color: #11998e;
     font-weight: 700;
 }
-@media only screen and (min-height: 700px){
-    .card{
+
+@media only screen and (min-height: 700px) {
+    .card {
         height: 56%;
         width: 80%;
     }
-    #bgimg{
-        height: 90%;
-    }
 }
-@media only screen and (min-height: 500px){
-    .card{
-        
-        width: 65%;
-    }
-    
-    
-}
-@media only screen and (min-height: 800px){
-    .card{
-        
-        width: 72%;
-        
-    }
-    #bgimg{
-        height: 85%;
-    }
-}
-@media only screen and (min-height: 1000px){
-    .pic1{
-        height: 85%;
-        width: 100%;
-    }
-    .card{
-       
-        width: 68%;
-        
-    }
-}
-@media only screen and (min-width: 1000px){
-    .pic1{
-        height: 85%;
-        width: 100%;
-    }
-    
-    .card{
-       
-        width: 68%;
-        
-    }
-}
-@media only screen and (min-width: 1100px){
 
+@media only screen and (min-height: 500px) {
     .card {
         width: 65%;
-        height: 68%;}
-        .pic1{
-            height: 100%;
-            width: 100%;
-        }
+    }
 }
 
+@media only screen and (min-height: 800px) {
+    .card {
+        width: 72%;
+    }
+}
 
+@media only screen and (min-height: 1000px) {
+    .pic1 {
+        height: 85%;
+        width: 100%;
+    }
+    .card {
+        width: 68%;
+    }
+}
 
+@media only screen and (min-width: 1000px) {
+    .pic1 {
+        height: 85%;
+        width: 100%;
+    }
+    .card {
+        width: 68%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .card {
+        width: 65%;
+        height: 68%;
+    }
+    .pic1 {
+        height: 100%;
+        width: 100%;
+    }
+}
